@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px) {
+  .container {
+    width: var(--container-width-max);
+    width: var(--col-lg);
+    width: var(--col-md);
+    width: var(--col-sm);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: var(--container-width-max);
+    width: var(--col-lg);
+    width: var(--col-md);
+    width: var(--col-sm);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: var(--container-width-max);
+    width: var(--col-lg);
+    width: var(--col-md);
+    width: var(--col-sm);
+  }
+}
