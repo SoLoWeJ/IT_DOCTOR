@@ -1,0 +1,22 @@
+:root {
+  --gutter: 20px;
+  --bg1:  #ddc436;
+  --bg2:  #2d08b6;
+  --bg3:  #05afe2;
+}
+
+:root .container{
+    --container-width-max: max-width: 100%;
+}
+
+:root .col-sm-12 {
+    --col-sm: width: calc(100% - var(--gutter));
+  }
+
+ :root .col-md-6 {
+    --col-md: width: calc(50% - var(--gutter));
+  }
+
+:root.col-lg-4 {
+   --col-lg: width: calc(25% - var(--gutter));
+  }
